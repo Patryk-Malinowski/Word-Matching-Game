@@ -1,9 +1,29 @@
-# Word-Matching-Game
+# Word Matching Game
 
-Reads the text file "word_list" that contains valid 5 letter words that the user can guess. A word is selected at random and the user has 6 guesses to guess the correct word. The user may only use other valid 5 letter words from the list as guesses. 
+Welcome to the Word Matching Game implemented in C! This program challenges users to guess a randomly selected 5-letter word from a predefined list. Below is an overview of its features:
 
-Any letter in a guessed word will be checked against the correct word and revealed if it is in the correct word.
+## Features:
 
-The program contains safeguards to ensure correct input from the user and checking for the correct guess or completion of the correct word through other guesses.
+1. **Word Selection:**
+   - A random 5-letter word is chosen from the "word_list.txt" file for the user to guess.
 
-It displays how many games the user has won after he quits the game. It also displays the users win percentage.
+2. **Guessing Mechanism:**
+   - Users have 6 chances to guess the correct word.
+   - Valid guesses are restricted to 5-letter words from the provided list.
+
+3. **Letter Matching:**
+   - Reveals any correct letters in a guessed word.
+
+4. **Safeguards:**
+   - Safeguards are implemented to ensure correct user input.
+   - The program checks for the correct guess or completion of the correct word through other guesses.
+
+5. **Game Statistics:**
+   - Displays the number of games won after the user quits the game.
+   - Calculates and shows the user's win percentage.
+
+## How to Play:
+
+1. Compile the program:
+   ```bash
+   gcc -o word_matching_game word_matching_game.c

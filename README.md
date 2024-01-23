@@ -22,8 +22,3 @@ Welcome to the Word Matching Game implemented in C! This program challenges user
    - Displays the number of games won after the user quits the game.
    - Calculates and shows the user's win percentage.
 
-## How to Play:
-
-1. Compile the program:
-   ```bash
-   gcc -o word_matching_game word_matching_game.c
